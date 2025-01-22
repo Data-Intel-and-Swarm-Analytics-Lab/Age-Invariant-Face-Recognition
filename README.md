@@ -26,19 +26,3 @@ You can install the required dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
-## Usage
-
-1. **Convert Images to Grayscale**  
-   The script converts all images in the specified input folder to grayscale and saves them in the output folder while maintaining the directory structure.
-   
-   ```python
-   convert_images_to_grayscale(input_folder_path, output_folder_path)
-
-2. **Face Extraction and Resizing**
-    The script detects faces in the grayscale images, extracts them, resizes them to 224x224 pixels, and saves them in a new directory.
-
-    ```python
-    process_all_images(output_folder_path, cropped_folder_path)
-
-
