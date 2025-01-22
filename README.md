@@ -21,3 +21,8 @@ This repository contains Python scripts for processing images from the MORPH II 
 - Matplotlib
 - tqdm
 - seaborn
+
+You can install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
